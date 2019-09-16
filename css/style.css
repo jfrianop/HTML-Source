@@ -1,0 +1,48 @@
+body {
+	background-color: rgb(172, 172, 172) 
+}
+header{
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+    height: 30px;
+}
+header img{
+    padding-inline-start: 200px;
+    width: 100px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+    padding-inline-end: 200px;
+}
+header nav a{
+    color:rgb(163, 163, 163);
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px 15px;
+    font: helvetica;
+}
+header nav a.active{
+    color: black;
+}
+div#general {
+    box-align: "center";
+    margin: 10px 200px;
+    width: 930px;
+}
+
+div#info {
+    float: left;
+	width: 220px;
+	height: 530px;
+	background-color: white;
+}
+div#box {
+    float: right;
+    width: 688px;
+    margin-block-end: 20px;
+	height: 200px;
+	background-color: white;
+}
