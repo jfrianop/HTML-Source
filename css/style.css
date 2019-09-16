@@ -1,6 +1,7 @@
 body {
 	background-color: rgb(172, 172, 172) 
 }
+
 header{
     background-color: white;
     padding: 20px;
@@ -8,7 +9,7 @@ header{
     height: 30px;
 }
 header img{
-    padding-inline-start: 200px;
+    padding-inline-start: 225px;
     width: 100px;
 }
 header nav{
@@ -27,22 +28,108 @@ header nav a{
 header nav a.active{
     color: black;
 }
+
 div#general {
-    box-align: "center";
-    margin: 10px 200px;
-    width: 930px;
+	margin: auto; 
+	margin-top: 20px;
+	width: 960px;
+	height: 800px;
+	
+}
+		div#general p {
+			text-align: center;
+			font-size: 3;
+		}
+
+		div#general h2 {
+			font-size: 3
+		}
+
+		div#general h3 {
+			font-size: 3
+		}
+		div#general h4 {
+			font-size: 3
 }
 
-div#info {
+div#mainBox {
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
     float: left;
-	width: 220px;
-	height: 530px;
+	width: 150px;
+	height: 580px;
 	background-color: white;
+	font-size: 1rem;
 }
+		div#mainBox img {
+			float: left;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			width: 150px;
+			height: 150px;
+		}
+		div#mainBox h2{
+			font-size: 1rem;
+			text-align: left;
+		}
+		div#mainBox p{
+			font-size: 1rem;
+			text-align: left;
+		}
+
+		div#social {
+			margin: 10px;
+
+		}
+
+		div#social a{
+			text-decoration: none;
+			font-size: 30px;
+			text-align: center;
+		}
+
 div#box {
-    float: right;
-    width: 688px;
-    margin-block-end: 20px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 600px;
 	height: 200px;
 	background-color: white;
+}
+
+		div img{
+			float: left;
+			width: 150px;
+			height: 150px;
+		}
+
+		div#box h1{
+			float: left;
+			font-size: 1rem;
+			font: helvetica;
+			text-align: left;
+			margin-bottom: 2px;
+		}
+		div#box h2{
+			float: left;
+			font-size: 1rem;
+			font: helvetica;
+			text-align: left;
+			margin-bottom: 2px;
+		}
+		
+		div#box p{
+			font-size: 1rem;
+			text-align: left;
+		}
+
+.divider{
+	width: 80px;
+	border-top: 2px solid grey;
 }
