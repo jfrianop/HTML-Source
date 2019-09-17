@@ -1,48 +1,291 @@
 body {
-	background-color: rgb(172, 172, 172) 
+	background-color: rgb(199, 199, 199) 
 }
 header{
     background-color: white;
-    padding: 20px;
-    margin: 0px;
-    height: 30px;
-}
-header img{
-    padding-inline-start: 200px;
-    width: 100px;
-}
-header nav{
-    float: right;
-    margin-top: 10px;
-    padding-inline-end: 200px;
-}
-header nav a{
-    color:rgb(163, 163, 163);
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 10px;
-    padding: 10px 15px;
-    font: helvetica;
-}
-header nav a.active{
-    color: black;
-}
-div#general {
-    box-align: "center";
-    margin: 10px 200px;
-    width: 930px;
 }
 
-div#info {
-    float: left;
-	width: 220px;
-	height: 530px;
-	background-color: white;
+@media(min-width: 300px){
+    .header-wrapper{
+        height: 60px;
+    }
+    .header-wrapper img{
+        height: 30px;
+        position:absolute;
+        top: 15px;
+        left: 10px;
+    }
+    .header-wrapper nav{
+        font-size: 16px;
+        height: 30px;
+        position:absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .header-wrapper a{
+        color:rgb(163, 163, 163);
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 5px;
+        font: helvetica;
+    }
+    .header-wrapper a.active{
+        color: black;
+    }
+    .content-wrapper{
+        height: auto;
+    }
+    .post{
+        margin: 7px;
+        padding: 7px;
+        background: white;
+        border-radius: 3px;
+        border: 2px solid rgb(180, 180, 180); 
+    }
+    .post img{
+        width:250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .post content{
+        position: absolute;
+        bottom: 0px;
+    }
+    .info img{
+        width: 250px;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info{
+        margin: 7px;
+        padding: 7px;
+        background: white;
+        border-radius: 3px;
+        border: 2px solid rgb(180, 180, 180); 
+    }
 }
-div#box {
-    float: right;
-    width: 688px;
-    margin-block-end: 20px;
-	height: 200px;
-	background-color: white;
+
+@media(min-width: 576px){
+    .header-wrapper{
+        height: 60px;
+    }
+    .header-wrapper img{
+        height: 30px;
+        position:absolute;
+        top: 15px;
+        left: 10px;
+    }
+    .header-wrapper nav{
+        font-size: 18px;
+        height: 30px;
+        position:absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .header-wrapper a{
+        color:rgb(163, 163, 163);
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 5px;
+        font: helvetica;
+    }
+    .header-wrapper a.active{
+        color: black;
+    }
+    .content-wrapper{
+        height: auto;
+    }
+    .post{
+        position: relative;
+        margin: 7px;
+        padding: 7px;
+        background: white;
+        border-radius: 3px;
+        border: 2px solid rgb(180, 180, 180); 
+    }
+    .post img{
+        width:250px;
+        display: block;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    div.post-content{
+        position: absolute;
+        top: 0px;
+        left: 280px;
+    }
+    .info img{
+        width: 250px;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info{
+        margin: 7px;
+        padding: 7px;
+        background: white;
+        border-radius: 3px;
+        border: 2px solid rgb(180, 180, 180); 
+    }
+}
+@media(min-width: 768px){
+    .header-wrapper{
+        height: 60px;
+    }
+    .header-wrapper img{
+        height: 30px;
+        position:absolute;
+        top: 15px;
+        left: 10px;
+    }
+    .header-wrapper nav{
+        font-size: 20px;
+        height: 30px;
+        position:absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .header-wrapper a{
+        color:rgb(163, 163, 163);
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 5px;
+        font: helvetica;
+    }
+    .header-wrapper a.active{
+        color: black;
+    }
+    .content-wrapper{
+        position: relative;
+        height: auto;
+    }
+    div.post-wrapper{
+        width: 65%;
+        position: absolute;
+        right: 14px;
+    }
+    div.post{
+        position: relative;
+        width: 95%;
+        margin: 7px;
+        padding: 7px;
+        background: white;
+        border-radius: 3px;
+        border: 2px solid rgb(180, 180, 180); 
+    }
+    .post img{
+        width:40%;
+        display: block;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    div.post-content{
+        position: absolute;
+        padding-right: 5px;
+        height: 90%;
+        top: 0px;
+        left: 42%;
+    }
+    .info img{
+        width: 90%;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info{
+        width: 30%;
+        margin: 7px;
+        padding: 7px;
+        background: white;
+        border-radius: 3px;
+        border: 2px solid rgb(180, 180, 180); 
+    }
+}
+@media(min-width: 992px){
+    .header-wrapper{
+        position: relative;
+        height: 60px;
+        width: 990px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-wrapper img{
+        height: 30px;
+        position:absolute;
+        top: 15px;
+        left: 10px;
+    }
+    .header-wrapper nav{
+        font-size: 22px;
+        height: 30px;
+        position:absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .header-wrapper a{
+        color:rgb(163, 163, 163);
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 5px;
+        font: helvetica;
+    }
+    .header-wrapper a.active{
+        color: black;
+    }
+    .content-wrapper{
+        position: relative;
+        height: auto;
+        width: 990px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.post-wrapper{
+        width: 65%;
+        position: absolute;
+        right: 14px;
+    }
+    div.post{
+        position: relative;
+        width: 95%;
+        margin: 7px;
+        padding: 7px;
+        background: white;
+        border-radius: 3px;
+        border: 2px solid rgb(180, 180, 180); 
+    }
+    .post img{
+        width:40%;
+        display: block;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    div.post-content{
+        position: absolute;
+        padding-right: 5px;
+        height: 90%;
+        top: 0px;
+        left: 42%;
+    }
+    .info img{
+        width: 90%;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info{
+        width: 30%;
+        margin: 7px;
+        padding: 7px;
+        background: white;
+        border-radius: 3px;
+        border: 2px solid rgb(180, 180, 180); 
+    }
 }
